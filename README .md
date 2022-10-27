@@ -12,7 +12,7 @@ It is a COMP8604 project repository. The goal of the project is to develop a pip
 pip install requirements.txt
 ```
 
-- Download the pre-trained model: https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/ETkg7XHvHWdAnM1zNRCCYD0BFR2rWKT3oeMtJ57MD9qEQg?e=MrEgmY
+- Download the pre-trained model: [‣](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/ETkg7XHvHWdAnM1zNRCCYD0BFR2rWKT3oeMtJ57MD9qEQg?e=MrEgmY)
 
 Main files:
 
@@ -23,11 +23,11 @@ Main files:
 
 # Data
 
-- OAI 12-month visit data for training the network
+- OAI 12-month visit data for training the network 
 - OAI 36-month visit data for HKA validation
-- Only sample data are included in the repository. The complete dataset can be found:
-    - OAI 12-month visit data with annotation: ‣
-    - OAI 36-month visit data : ‣
+- Only sample data are included in the repository. The complete dataset can be found: 
+    - OAI 12-month visit data with annotation: [‣](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/EQr8CVGQKHJAgfZSAtGKLkYBHm8f--nze6JQN9gbkQK_wA?e=OahMkd)
+    - OAI 36-month visit data : [‣](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/EfSyWbARPHJLjM4w7SRvCfIBWdulb0NJdXfbImff0PulPg?e=cvNvkt)
 - All data is in ./data directory.
     - ./data/raw/ stores the raw x-rays (bilateral)
     - ./data/preprocessed  stores all preprocessed images, corresponding masks(labels), and augmented data
@@ -37,7 +37,7 @@ Main files:
 
 # Network Training
 
-1. Download data from OAI 12-month visit data with annotation: ‣
+1. Download data from OAI 12-month visit data with annotation: [‣](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/EQr8CVGQKHJAgfZSAtGKLkYBHm8f--nze6JQN9gbkQK_wA?e=OahMkd)
 2. Put raw data (x-rays) in  ./data/raw/  fold
 3. Run [utils.preprocessing.py](http://utils.preprocessing.py) to preprocess the raw x-rays. The results are saved in ./data/preprocessed/images
 4. Open Labelme to label the x-rays in ./data/preprocessed/images fold
@@ -69,11 +69,6 @@ Main files:
 
  Results on test set: dice coefficient: 0.972, mIoU: 0.980
 
-![loss.png](README/loss.png)
-
-![dice_coefficient.png](README/dice_coefficient.png)
-
-![miou.png](README/miou.png)
 
 # Automated Mechanical Alignment with Assessment
 
@@ -95,8 +90,3 @@ MSE: 0.60845401338582,
 
 paired t-test: Ttest_relResult(statistic=-0.6939754226448148, pvalue=0.48817010111589665)
 
-![HKA_measurement.png](README/HKA_measurement.png)
-
-## Qualitative Results of Assessment
-
-![HKA results.png](README/HKA_results.png)
