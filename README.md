@@ -72,7 +72,7 @@ Main files:
 
 # Automated Mechanical Alignment with Assessment
 
-1. Download data from OAI 36-month visit data: ‣
+1. Download data from OAI 36-month visit data: [OAI 36m](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/EfSyWbARPHJLjM4w7SRvCfIBWdulb0NJdXfbImff0PulPg?e=cvNvkt)
     1. the .zip file includes the x-rays and the ground truth HKA
 2. Put data in ./data/HKA_validation
 3. Run the hka_validation.py
