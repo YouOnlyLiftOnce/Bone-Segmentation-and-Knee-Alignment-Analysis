@@ -1,0 +1,1 @@
+0 = neither; 1 = right; 2 = left; 3 = bilateral; blank = Missing Form/Incomplete Workbook
