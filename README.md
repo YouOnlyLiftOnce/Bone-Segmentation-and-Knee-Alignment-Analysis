@@ -12,7 +12,7 @@ It is a COMP8604 project repository. The goal of the project is to develop a pip
 pip install requirements.txt
 ```
 
-- Download the pre-trained model: [pre-trained model](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/ETkg7XHvHWdAnM1zNRCCYD0BFR2rWKT3oeMtJ57MD9qEQg?e=MrEgmY)
+- Download the pre-trained model: [pre-trained model](https://anu365-my.sharepoint.com/:u:/g/personal/u7150030_anu_edu_au/EYLouhWPc4dGioWkMuCVkA8Bm4jM09wNI_qoloC1wtoTPw?e=IrTCa3)
 
 Main files:
 
