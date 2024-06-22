@@ -2,7 +2,7 @@
 
 # Overview
 
-It is a COMP8604 project repository. The goal of the project is to develop a pipeline for automated analysis of alignment in long-leg x-rays. There are two parts to this repository. First, a modified U- Net for segmenting the femur and tibia. Second, morphological methods for landmark locating.
+It is a research project repository. The project aims to develop a pipeline for automated analysis of alignment in long-leg x-rays. There are two parts to this repository. First, a modified U-net for segmenting the femur and tibia. Second, morphological methods for landmark locating.
 
 # Quick start
 
